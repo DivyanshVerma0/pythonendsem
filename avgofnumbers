@@ -1,0 +1,12 @@
+total_marks = 0
+subject_count = 0
+while True:
+    marks = float(input("Enter the numbers: "))
+    total_marks += marks
+    subject_count += 1
+    choice = input("Enter the numbers: ").strip().lower()
+    if choice == 'n':
+        break
+if subject_count > 0:
+    average_marks = total_marks / subject_count
+    print(round(average_marks, 2))

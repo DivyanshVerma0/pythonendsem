@@ -1,0 +1,8 @@
+A = input("Enter the elements of set A: ").split()
+B = input("Enter the elements of set B: ").split()
+A = set(A)
+B = set(B)
+print("Union of A and B: ", A | B)
+print("Intersection of A and B: ", A & B)
+print("Difference of A and B: ", A - B)
+print("Symmetric difference of A and B: ", A ^ B)
